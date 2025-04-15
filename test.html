@@ -3,9 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embedded Chart</title>
+    <title>高雄市鎮南里A11~A33人口樣態</title>
+    <style>
+        /* Basic styles for the body */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f9fc;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column; /* 使內容垂直排列 */
+            align-items: center;
+        }
+
+        /* Styling for the h1 */
+        h1 {
+            margin: 20px 0; /* 調整 h1 的上下邊距 */
+        }
+
+        /* Styling for the image */
+        img {
+            max-width: 80%; /* 圖片最大寬度，適應不同屏幕 */
+            height: auto; /* 保持圖片比例 */
+            margin-bottom: 20px; /* 圖片下方留白 */
+        }
+
+        /* Styling for the iframe */
+        iframe {
+            border: 1px solid #ccc;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+    </style>
 </head>
 <body>
-    <iframe src="https://plotdb.io/v/chart/37108" width="100%" height="600px" allowfullscreen="true" frameborder="0"></iframe>
+    <h1>高雄市鎮南里A11~A33人口樣態</h1>
+    <img src="example.jpg" alt="鎮南里人口樣態示意圖">
+    <iframe src="your-iframe-source.html" width="600" height="400"></iframe>
+    <p>年齡分布
+在年齡組別中，年齡A11（687人）和年齡A12（308人）的數據顯示出，鎮南里擁有相對穩定的年齡結構，年輕與中年人口的比例較高，這可能有助於社區的活力和經濟發展。
+
+身心障礙人口
+身心障礙群體的數量也值得注意，身心障礙A21有897人，身心障礙A22有98人，身心障礙A31則有974人。這些數據顯示，鎮南里在身心障礙者的支持與照護方面面臨著挑戰與需求，社區需要提供更多的資源和服務來改善他們的生活品質。
+
+長期照護需求
+長照A32和長照A33的數據顯示，該里有36人和63人需要長期照護，這反映出社區中老年人口或需要特別照護的群體的存在。這一點強調了對長期照護服務的需求，並呼籲社會各界加強對這些群體的關注與支持。</p>
 </body>
 </html>
