@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>高齡資料視覺化圖表</title>
+  <style>
+    /* 設定網頁的基本樣式 */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0078d7;
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+
+    /* 設定 iframe 容器的響應式樣式 */
+    .iframe-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%; /* 16:9 比例 */
+      height: 0;
+      overflow: hidden;
+      margin: 2rem 0;
+    }
+
+    .iframe-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    /* 針對小型裝置進行調整 */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem 0;
+      background: #333;
+      color: #fff;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>高齡資料視覺化圖表</h1>
+  </header>
+
+  <main>
+    <!-- 包含響應式 iframe -->
+    <div class="iframe-container">
+      <iframe 
+        src="https://plotdb.io/v/chart/37348" 
+        width="100%" 
+        height="600px" 
+        allowfullscreen="true" 
+        frameborder="0">
+      </iframe>
+    </div>
+    <section>
+      <h2>洞察與分析</h2>
+      <p>
+        這個圖表展示了高齡人口的相關數據變化。隨著高齡化社會的加劇，我們可以觀察到以下幾個重要趨勢：
+      </p>
+      <ul>
+        <li><strong>健康需求提升：</strong>高齡人口的增加意味著對醫療和健康服務的需求逐漸提高。</li>
+        <li><strong>經濟影響：</strong>高齡化可能對勞動力市場和經濟增長造成壓力，但也為適老產品和服務帶來機遇。</li>
+        <li><strong>社會參與：</strong>如何提升高齡人口的社會參與和生活品質將成為未來的關鍵議題。</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 高齡資料視覺化. All rights reserved.</p>
+  </footer>
+</body>
+</html>
